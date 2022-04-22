@@ -9,7 +9,7 @@ minima:
 
   # generate social links in footer
   social_links:
-    github:  mpedych
+    # github:  mpedych
     # linkedin: jekyll
     # telegram: jekyll
     # googleplus: +jekyll
