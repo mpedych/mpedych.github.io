@@ -41,3 +41,6 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+
+disqus:
+  shortname: personal-blog-zrtp98cl04
