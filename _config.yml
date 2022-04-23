@@ -37,6 +37,7 @@ minima:
 
 # Build settings
 theme: minima
+permalink: /:title:output_ext
 
 plugins:
  - jekyll-feed
