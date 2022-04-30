@@ -7,7 +7,6 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
-  <div class="sidebar" id="sidebar">
     <nav class="sidebar-nav">
       <h3 class="category-topic">Topics/</h3>
       {% assign sortedCategories = site.categories | sort %}
@@ -18,8 +17,6 @@ layout: default
       </a>
       {% endfor %}
     </nav>
-
-  </div>
 
   {{ content }}
 
@@ -71,5 +68,4 @@ layout: default
     {%- endif %}
 
   {%- endif -%}
-  <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
   </div>
