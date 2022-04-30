@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="categories">
-    <h1 class="h1 category-title">Topic:&nbsp;  {{ page.category-name }}/</h1>
+    <h1 class="h1 category-title">Category:&nbsp;  {{ page.category-name }}/</h1>
     <div class="posts">
         {% for post in site.categories[page.category-name] %}
         <div class="post py3">
@@ -15,7 +15,7 @@ layout: default
             </p>
             <a href="{{ post.url | relative_url }}" class="post-link"><h3 class="h1 post-title">{{ post.title }}</h3></a>
             <span class="post-summary">
-              {{ post.excerpt }}
+              {{ post.short_description }}
           </span>
         </div>
         {% endfor %}
