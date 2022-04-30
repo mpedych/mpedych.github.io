@@ -8,7 +8,7 @@ layout: default
   {%- endif -%}
 
     <nav class="sidebar-nav">
-      <h3 class="category-topic">Topics/</h3>
+      <h3 class="category-topic">Categories:</h3>
       {% assign sortedCategories = site.categories | sort %}
       {% for category in sortedCategories %}
       {% assign cat4url = category[0] | remove:' ' | downcase %}
