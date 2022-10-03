@@ -28,7 +28,7 @@ brew services stop postgresql
 psql postgres
 ```
 
-Виправлення помилки: "FATAL: role "postgres" does not exist"
+Виправлення помилки: >"FATAL: role "postgres" does not exist"
 
 ```shell
 CREATE ROLE postgres WITH LOGIN PASSWORD 'postgres';
