@@ -29,7 +29,7 @@ categories: misc
 | Data           | Data           | Data               | Data               | **Data**           |                                            |
 | Runtime        | Runtime        | Runtime            | **Runtime**        | **Runtime**        | JRE etc.                                   |
 | Container      | Container      | Container          | **Container**      | **Container**      | Docker etc.                                |
-| O/S            | O/S            | O/S                | **O/S**            | **O/S**            |                                            |
+| O/S            | O/S            | O/S                | **O/S**            | **O/S**            | Linux, Windows, Mac OS X etc               |
 | Hypervisor     | Hypervisor     | **Hypervisor**     | **Hypervisor**     | **Hypervisor**     |                                            |
 | Servers        | Servers        | **Servers**        | **Servers**        | **Servers**        | Physical servers                           |
 | Infrastructure | Infrastructure | **Infrastructure** | **Infrastructure** | **Infrastructure** | Storage, network etc.                      |
