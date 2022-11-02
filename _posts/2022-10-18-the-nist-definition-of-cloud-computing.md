@@ -22,6 +22,18 @@ categories: misc
 
 # Моделі обслуговування:
 
+- **Програмне забезпечення як послуга** (англ. Software as a Service (SaaS)). Можливість, яка надається споживачеві, полягає у використанні додатків постачальника, які працюють у хмарній інфраструктурі². Програми доступні з різних клієнтських пристроїв або через інтерфейс тонкого клієнта, наприклад веб-браузер (наприклад, веб-електронна пошта), або інтерфейс програми. Споживач не керує базовою хмарною інфраструктурою, включаючи мережу, сервери, операційні системи, сховище або навіть окремі можливості програми, за винятком обмежених параметрів конфігурації програми, призначених для користувача. *Приклади: Gmail, Google Docs тощо.*
+
+²Хмарна інфраструктура – це сукупність апаратного та програмного забезпечень, які забезпечують п’ять основних характеристик хмарних обчислень. Хмарна інфраструктура може розглядатися як така, що містить і фізичний рівень, і рівень абстракції. Фізичний рівень складається з апаратних ресурсів, необхідних для підтримки хмарних служб, що надаються, і зазвичай включає сервер, сховище та мережеві компоненти. Рівень абстракції складається з програмного забезпечення, розгорнутого на фізичному рівні, яке демонструє основні характеристики хмари. Концептуально рівень абстракції розташований над фізичним рівнем. 
+
+- **Платформа як послуга** (англ. Platform as a Service (PaaS)). The capability provided to the consumer is to deploy onto the cloud infrastructure consumer-created or acquired applications created using programming languages, libraries, services, and tools supported by the provider. ³The consumer does not manage or control the underlying cloud infrastructure including network, servers, operating systems, or storage, but has control over the deployed applications and possibly configuration settings for the application-hosting environment. 
+
+³ This capability does not necessarily preclude the use of compatible programming languages, libraries, services, and tools from other sources. 
+
+Infrastructure as a Service (IaaS). The capability provided to the consumer is to provision processing, storage, networks, and other fundamental computing resources where the consumer is able to deploy and run arbitrary software, which can include operating systems and applications. The consumer does not manage or control the underlying cloud infrastructure but has control over operating systems, storage, and deployed applications; and possibly limited control of select networking components (e.g., host firewalls). 
+
+## Порівняння різних моделей обслуговування:
+
 | On-premises    | DC hosted      | IaaS               | PaaS               | SaaS               | Example                                    |
 |----------------|----------------|--------------------|--------------------|--------------------|--------------------------------------------|
 | Interface      | Interface      | Interface          | Interface          | **Interface**      |                                            |
@@ -34,3 +46,5 @@ categories: misc
 | Servers        | Servers        | **Servers**        | **Servers**        | **Servers**        | Physical servers                           |
 | Infrastructure | Infrastructure | **Infrastructure** | **Infrastructure** | **Infrastructure** | Storage, network etc.                      |
 | Facilities     | **Facilities** | **Facilities**     | **Facilities**     | **Facilities**     | Building with power, air conditioning etc. |
+
+Одиниця споживання (англ. unit of consumption) – те що відрізняє одну модель обслуговування від іншої.
