@@ -46,6 +46,13 @@ categories: misc
 
 Одиниця споживання (англ. unit of consumption) – те що відрізняє одну модель обслуговування від іншої.
 
+# Моделі розгортання
+
+- **Private cloud.** The cloud infrastructure is provisioned for exclusive use by a single organization comprising multiple consumers (e.g., business units). It may be owned, managed, and operated by the organization, a third party, or some combination of them, and it may exist on or off premises. 
+Community cloud. The cloud infrastructure is provisioned for exclusive use by a specific community of consumers from organizations that have shared concerns (e.g., mission, security requirements, policy, and compliance considerations). It may be owned, managed, and operated by one or more of the organizations in the community, a third party, or some combination of them, and it may exist on or off premises. 
+- **Public cloud.** The cloud infrastructure is provisioned for open use by the general public. It may be owned, managed, and operated by a business, academic, or government organization, or some combination of them.  It exists on the premises of the cloud provider. 
+- **Hybrid cloud.** The cloud infrastructure is a composition of two or more distinct cloud infrastructures (private, community, or public) that remain unique entities, but are bound together by standardized or proprietary technology that enables data and application portability (e.g., cloud bursting for load balancing between clouds).   
+
 <a name="footnote-1">¹</a> Зазвичай це робиться на основі моделі оплати за використання (англ. pay-per-use).
 
 <a name="footnote-2">²</a> Хмарна інфраструктура – це сукупність апаратного та програмного забезпечень, які забезпечують п’ять основних характеристик хмарних обчислень. Хмарна інфраструктура може розглядатися як така, що містить і фізичний рівень, і рівень абстракції. Фізичний рівень складається з апаратних ресурсів, необхідних для підтримки хмарних служб, що надаються, і зазвичай включає сервер, сховище та мережеві компоненти. Рівень абстракції складається з програмного забезпечення, розгорнутого на фізичному рівні, яке демонструє основні характеристики хмари. Концептуально рівень абстракції розташований над фізичним рівнем.
