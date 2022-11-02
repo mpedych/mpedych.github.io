@@ -47,4 +47,108 @@ Infrastructure as a Service (IaaS). The capability provided to the consumer is t
 | Infrastructure | Infrastructure | **Infrastructure** | **Infrastructure** | **Infrastructure** | Storage, network etc.                      |
 | Facilities     | **Facilities** | **Facilities**     | **Facilities**     | **Facilities**     | Building with power, air conditioning etc. |
 
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-pidv{background-color:#ffce93;border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky">On-premises</th>
+    <th class="tg-0pky">DC hosted</th>
+    <th class="tg-0pky">IaaS</th>
+    <th class="tg-0pky">PaaS</th>
+    <th class="tg-0pky">SaaS</th>
+    <th class="tg-0pky">Example</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">Interface</td>
+    <td class="tg-0pky">Interface</td>
+    <td class="tg-0pky">Interface</td>
+    <td class="tg-0pky">Interface</td>
+    <td class="tg-pidv"><span style="font-weight:bold">**Interface**</span></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Application</td>
+    <td class="tg-0pky">Application</td>
+    <td class="tg-0pky">Application</td>
+    <td class="tg-0pky">Application</td>
+    <td class="tg-pidv"><span style="font-weight:bold">**Application**</span></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Data</td>
+    <td class="tg-0pky">Data</td>
+    <td class="tg-0pky">Data</td>
+    <td class="tg-0pky">Data</td>
+    <td class="tg-pidv"><span style="font-weight:bold">**Data**</span></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Runtime</td>
+    <td class="tg-0pky">Runtime</td>
+    <td class="tg-0pky">Runtime</td>
+    <td class="tg-pidv"><span style="font-weight:bold">**Runtime**</span></td>
+    <td class="tg-pidv"><span style="font-weight:bold">**Runtime**</span></td>
+    <td class="tg-0pky">JRE etc.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Container</td>
+    <td class="tg-0pky">Container</td>
+    <td class="tg-0pky">Container</td>
+    <td class="tg-pidv"><span style="font-weight:bold">**Container**</span></td>
+    <td class="tg-pidv"><span style="font-weight:bold">**Container**</span></td>
+    <td class="tg-0pky">Docker etc.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">O/S</td>
+    <td class="tg-0pky">O/S</td>
+    <td class="tg-0pky">O/S</td>
+    <td class="tg-pidv"><span style="font-weight:bold">**O/S**</span></td>
+    <td class="tg-pidv"><span style="font-weight:bold">**O/S**</span></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Hypervisor</td>
+    <td class="tg-0pky">Hypervisor</td>
+    <td class="tg-pidv"><span style="font-weight:bold">**Hypervisor**</span></td>
+    <td class="tg-pidv"><span style="font-weight:bold">**Hypervisor**</span></td>
+    <td class="tg-pidv"><span style="font-weight:bold">**Hypervisor**</span></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Servers</td>
+    <td class="tg-0pky">Servers</td>
+    <td class="tg-pidv"><span style="font-weight:bold">**Servers**</span></td>
+    <td class="tg-pidv"><span style="font-weight:bold">**Servers**</span></td>
+    <td class="tg-pidv"><span style="font-weight:bold">**Servers**</span></td>
+    <td class="tg-0pky">Physical servers</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Infrastructure</td>
+    <td class="tg-0pky">Infrastructure</td>
+    <td class="tg-pidv"><span style="font-weight:bold">**Infrastructure**</span></td>
+    <td class="tg-pidv"><span style="font-weight:bold">**Infrastructure**</span></td>
+    <td class="tg-pidv"><span style="font-weight:bold">**Infrastructure**</span></td>
+    <td class="tg-0pky">Storage, network etc.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Facilities</td>
+    <td class="tg-pidv"><span style="font-weight:bold">**Facilities**</span></td>
+    <td class="tg-pidv"><span style="font-weight:bold">**Facilities**</span></td>
+    <td class="tg-pidv"><span style="font-weight:bold">**Facilities**</span></td>
+    <td class="tg-pidv"><span style="font-weight:bold">**Facilities**</span></td>
+    <td class="tg-0pky">Building with power, air conditioning etc.</td>
+  </tr>
+</tbody>
+</table>
+
 Одиниця споживання (англ. unit of consumption) – те що відрізняє одну модель обслуговування від іншої.
