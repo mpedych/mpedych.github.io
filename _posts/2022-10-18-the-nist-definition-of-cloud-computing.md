@@ -18,19 +18,15 @@ categories: misc
 
 - **Швидка еластичність** (англ. rapid elasticity). Ресурси можна надавати та вивільняти, у деяких випадках автоматично, для швидкого масштабування назовні та всередину відповідно до попиту. Для споживача можливості, доступні для забезпечення, часто здаються необмеженими і можуть бути використані в будь-якій кількості в будь-який час. *Споживач може змінювати необхідну кількість ресурсів за потреби. Наприклад, якщо користувачу потрібно менше дискового простору, він може зменшити доступний простір та не платити за зайвий простір. Elasticity — ресурси можуть збільшуватись або зменшуватись, rapid — це відбувається автоматично.*
 
-- **Облік споживання** (англ. measured service). Хмарні системи автоматично контролюють і оптимізують використання ресурсів, використовуючи можливості вимірювання (зазвичай це робиться на основі моделі оплати за використання (англ. pay-per-use). ) на певному рівні абстракції, що відповідає типу послуги (наприклад, зберігання, обробка, пропускна здатність і активні облікові записи користувачів). Використання ресурсів можна відстежувати, контролювати та звітувати, забезпечуючи прозорість як для постачальника, так і для споживача використовуваної послуги. *Плати тільки за те що спожив. Наприклад, якщо навантаження на систему зменшилось, в наслідок чого використовується менше процесорного часу, то користувач оплачує тільки використану кількість процесорного часу. Використання ресурсів може бути відстежено, проконтрольовано, відзвітовано та оцінено в грошовому еквіваленті.*
+- **Облік споживання** (англ. measured service). Хмарні системи автоматично контролюють і оптимізують використання ресурсів, використовуючи можливості вимірювання¹ на певному рівні абстракції, що відповідає типу послуги (наприклад, зберігання, обробка, пропускна здатність і активні облікові записи користувачів). Використання ресурсів можна відстежувати, контролювати та звітувати, забезпечуючи прозорість як для постачальника, так і для споживача використовуваної послуги. *Плати тільки за те що спожив. Наприклад, якщо навантаження на систему зменшилось, в наслідок чого використовується менше процесорного часу, то користувач оплачує тільки використану кількість процесорного часу. Використання ресурсів може бути відстежено, проконтрольовано, відзвітовано та оцінено в грошовому еквіваленті.*
 
 # Моделі обслуговування:
 
 - **Програмне забезпечення як послуга** (англ. Software as a Service (SaaS)). Можливість, яка надається споживачеві, полягає у використанні додатків постачальника, які працюють у хмарній інфраструктурі². Програми доступні з різних клієнтських пристроїв або через інтерфейс тонкого клієнта, наприклад веб-браузер (наприклад, веб-електронна пошта), або інтерфейс програми. Споживач не керує базовою хмарною інфраструктурою, включаючи мережу, сервери, операційні системи, сховище або навіть окремі можливості програми, за винятком обмежених параметрів конфігурації програми, призначених для користувача. *Приклади: Gmail, Google Docs тощо.*
 
-²Хмарна інфраструктура – це сукупність апаратного та програмного забезпечень, які забезпечують п’ять основних характеристик хмарних обчислень. Хмарна інфраструктура може розглядатися як така, що містить і фізичний рівень, і рівень абстракції. Фізичний рівень складається з апаратних ресурсів, необхідних для підтримки хмарних служб, що надаються, і зазвичай включає сервер, сховище та мережеві компоненти. Рівень абстракції складається з програмного забезпечення, розгорнутого на фізичному рівні, яке демонструє основні характеристики хмари. Концептуально рівень абстракції розташований над фізичним рівнем. 
-
 - **Платформа як послуга** (англ. Platform as a Service (PaaS)). The capability provided to the consumer is to deploy onto the cloud infrastructure consumer-created or acquired applications created using programming languages, libraries, services, and tools supported by the provider. ³The consumer does not manage or control the underlying cloud infrastructure including network, servers, operating systems, or storage, but has control over the deployed applications and possibly configuration settings for the application-hosting environment. 
 
-³ This capability does not necessarily preclude the use of compatible programming languages, libraries, services, and tools from other sources. 
-
-Infrastructure as a Service (IaaS). The capability provided to the consumer is to provision processing, storage, networks, and other fundamental computing resources where the consumer is able to deploy and run arbitrary software, which can include operating systems and applications. The consumer does not manage or control the underlying cloud infrastructure but has control over operating systems, storage, and deployed applications; and possibly limited control of select networking components (e.g., host firewalls). 
+- **Infrastructure as a Service (IaaS)**. The capability provided to the consumer is to provision processing, storage, networks, and other fundamental computing resources where the consumer is able to deploy and run arbitrary software, which can include operating systems and applications. The consumer does not manage or control the underlying cloud infrastructure but has control over operating systems, storage, and deployed applications; and possibly limited control of select networking components (e.g., host firewalls). 
 
 ## Порівняння різних моделей обслуговування:
 
@@ -47,108 +43,9 @@ Infrastructure as a Service (IaaS). The capability provided to the consumer is t
 | Infrastructure | Infrastructure | **Infrastructure** | **Infrastructure** | **Infrastructure** | Storage, network etc.                      |
 | Facilities     | **Facilities** | **Facilities**     | **Facilities**     | **Facilities**     | Building with power, air conditioning etc. |
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-pidv{background-color:#ffce93;border-color:inherit;text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-0pky">On-premises</th>
-    <th class="tg-0pky">DC hosted</th>
-    <th class="tg-0pky">IaaS</th>
-    <th class="tg-0pky">PaaS</th>
-    <th class="tg-0pky">SaaS</th>
-    <th class="tg-0pky">Example</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-0pky">Interface</td>
-    <td class="tg-0pky">Interface</td>
-    <td class="tg-0pky">Interface</td>
-    <td class="tg-0pky">Interface</td>
-    <td class="tg-pidv"><span style="font-weight:bold">**Interface**</span></td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Application</td>
-    <td class="tg-0pky">Application</td>
-    <td class="tg-0pky">Application</td>
-    <td class="tg-0pky">Application</td>
-    <td class="tg-pidv"><span style="font-weight:bold">**Application**</span></td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Data</td>
-    <td class="tg-0pky">Data</td>
-    <td class="tg-0pky">Data</td>
-    <td class="tg-0pky">Data</td>
-    <td class="tg-pidv"><span style="font-weight:bold">**Data**</span></td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Runtime</td>
-    <td class="tg-0pky">Runtime</td>
-    <td class="tg-0pky">Runtime</td>
-    <td class="tg-pidv"><span style="font-weight:bold">**Runtime**</span></td>
-    <td class="tg-pidv"><span style="font-weight:bold">**Runtime**</span></td>
-    <td class="tg-0pky">JRE etc.</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Container</td>
-    <td class="tg-0pky">Container</td>
-    <td class="tg-0pky">Container</td>
-    <td class="tg-pidv"><span style="font-weight:bold">**Container**</span></td>
-    <td class="tg-pidv"><span style="font-weight:bold">**Container**</span></td>
-    <td class="tg-0pky">Docker etc.</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">O/S</td>
-    <td class="tg-0pky">O/S</td>
-    <td class="tg-0pky">O/S</td>
-    <td class="tg-pidv"><span style="font-weight:bold">**O/S**</span></td>
-    <td class="tg-pidv"><span style="font-weight:bold">**O/S**</span></td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Hypervisor</td>
-    <td class="tg-0pky">Hypervisor</td>
-    <td class="tg-pidv"><span style="font-weight:bold">**Hypervisor**</span></td>
-    <td class="tg-pidv"><span style="font-weight:bold">**Hypervisor**</span></td>
-    <td class="tg-pidv"><span style="font-weight:bold">**Hypervisor**</span></td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Servers</td>
-    <td class="tg-0pky">Servers</td>
-    <td class="tg-pidv"><span style="font-weight:bold">**Servers**</span></td>
-    <td class="tg-pidv"><span style="font-weight:bold">**Servers**</span></td>
-    <td class="tg-pidv"><span style="font-weight:bold">**Servers**</span></td>
-    <td class="tg-0pky">Physical servers</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Infrastructure</td>
-    <td class="tg-0pky">Infrastructure</td>
-    <td class="tg-pidv"><span style="font-weight:bold">**Infrastructure**</span></td>
-    <td class="tg-pidv"><span style="font-weight:bold">**Infrastructure**</span></td>
-    <td class="tg-pidv"><span style="font-weight:bold">**Infrastructure**</span></td>
-    <td class="tg-0pky">Storage, network etc.</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Facilities</td>
-    <td class="tg-pidv"><span style="font-weight:bold">**Facilities**</span></td>
-    <td class="tg-pidv"><span style="font-weight:bold">**Facilities**</span></td>
-    <td class="tg-pidv"><span style="font-weight:bold">**Facilities**</span></td>
-    <td class="tg-pidv"><span style="font-weight:bold">**Facilities**</span></td>
-    <td class="tg-0pky">Building with power, air conditioning etc.</td>
-  </tr>
-</tbody>
-</table>
 
 Одиниця споживання (англ. unit of consumption) – те що відрізняє одну модель обслуговування від іншої.
+
+<a name="1">¹</a>Зазвичай це робиться на основі моделі оплати за використання (англ. pay-per-use).
+²Хмарна інфраструктура – це сукупність апаратного та програмного забезпечень, які забезпечують п’ять основних характеристик хмарних обчислень. Хмарна інфраструктура може розглядатися як така, що містить і фізичний рівень, і рівень абстракції. Фізичний рівень складається з апаратних ресурсів, необхідних для підтримки хмарних служб, що надаються, і зазвичай включає сервер, сховище та мережеві компоненти. Рівень абстракції складається з програмного забезпечення, розгорнутого на фізичному рівні, яке демонструє основні характеристики хмари. Концептуально рівень абстракції розташований над фізичним рівнем.
+³This capability does not necessarily preclude the use of compatible programming languages, libraries, services, and tools from other sources. 
