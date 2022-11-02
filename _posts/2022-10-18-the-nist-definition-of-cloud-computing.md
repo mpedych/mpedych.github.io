@@ -43,7 +43,6 @@ categories: misc
 | Infrastructure | Infrastructure | **Infrastructure** | **Infrastructure** | **Infrastructure** | Storage, network etc.                      |
 | Facilities     | **Facilities** | **Facilities**     | **Facilities**     | **Facilities**     | Building with power, air conditioning etc. |
 
-
 Одиниця споживання (англ. unit of consumption) – те що відрізняє одну модель обслуговування від іншої.
 
 # Моделі розгортання
