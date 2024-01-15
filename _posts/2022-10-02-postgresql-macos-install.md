@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Як встановити PostgreSQL на MacOS за допомогою Homebrew"
+title: "Як встановити PostgreSQL на MacOS"
 categories: misc
 ---
 
+# За допомогою Homebrew
 Встановлення:
 
 ```shell
@@ -34,4 +35,11 @@ psql postgres
 ```shell
 CREATE ROLE postgres WITH LOGIN PASSWORD 'postgres';
 ALTER ROLE postgres CREATEDB;
+```
+
+# За допомогою Docker
+
+Встановлення:
+```shell
+docker run --name pg -e POSTGRES_PASSWORD=12345 -d postgres
 ```
