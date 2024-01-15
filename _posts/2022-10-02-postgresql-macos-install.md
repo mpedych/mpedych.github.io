@@ -41,5 +41,5 @@ ALTER ROLE postgres CREATEDB;
 
 Встановлення:
 ```shell
-docker run --name pg -e POSTGRES_PASSWORD=12345 -d postgres
+docker run --name pg-16.1 -p 5432:5432 -e POSTGRES_PASSWORD=pgpwd4habr -d postgres:16.1
 ```
