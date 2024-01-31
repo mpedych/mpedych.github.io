@@ -16,6 +16,8 @@ categories: misc
 ** Параметричний поліморфізм
   Generics
 
+https://www.stroustrup.com/glossary.html#Gpolymorphism
+
 
 Поліморфізм в Java
 https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html
