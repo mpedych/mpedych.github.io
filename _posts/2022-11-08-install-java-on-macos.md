@@ -40,3 +40,28 @@ alias setJDK17='export JAVA_HOME=`/usr/libexec/java_home -v 17`'
 # set to the default JDK
 export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
 ```
+# SDK Man
+
+Також можна використати [SDK Man](https://sdkman.io/)
+
+Встановлюємо `SDK Man`:
+``` shell
+curl -s "https://get.sdkman.io" | bash
+```
+
+Встановлюємо Java останньої версії:
+``` shell
+sdk install java
+```
+
+Встановлюємо конкретну версію Oracle JDK:
+``` shell
+sdk install java x.y.z-oracle
+```
+
+Інші версії JDK можна занайти за посиланням [SDK Man -> JDKs](https://sdkman.io/jdks/)
+
+Встановлення версії за замовчанням:
+``` shell
+sdk default scala 3.3.1
+```
