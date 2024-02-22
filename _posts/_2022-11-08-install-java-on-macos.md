@@ -69,6 +69,16 @@ sdk ls java
 sdk install java
 ```
 
+Встановлюємо `JAVA_HOME`:
+``` shell
+sdk home java current
+```
+
+Застосування змін:
+``` shell
+source ~/.sdkman/bin/sdkman-init.sh
+```
+
 Встановлюємо конкретну версію `Oracle JDK`:
 ``` shell
 sdk install java x.y.z-oracle
