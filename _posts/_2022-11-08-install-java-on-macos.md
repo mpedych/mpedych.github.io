@@ -64,9 +64,19 @@ sdk ls
 sdk ls java
 ```
 
+Встановлюємо конкретну версію `Oracle JDK`:
+``` shell
+sdk install java 21.0.2-oracle
+```
+
 Встановлюємо `Java` останньої версії:
 ``` shell
 sdk install java
+```
+
+Встановлюємо версію за замовчуванням:
+``` shell
+sdk default java 21.0.2-oracle
 ```
 
 Встановлюємо `JAVA_HOME`:
@@ -77,16 +87,4 @@ sdk home java current
 Застосування змін:
 ``` shell
 source ~/.sdkman/bin/sdkman-init.sh
-```
-
-Встановлюємо конкретну версію `Oracle JDK`:
-``` shell
-sdk install java x.y.z-oracle
-```
-
-Інші версії `JDK` можна занайти за посиланням [SDK Man -> JDKs](https://sdkman.io/jdks/)
-
-Встановлення версії за замовчанням:
-``` shell
-sdk default scala 3.3.1
 ```
