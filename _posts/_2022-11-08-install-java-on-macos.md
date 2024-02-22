@@ -101,3 +101,26 @@ sdk env init
 sdk env
 ```
 
+## Видалення встановлених SDK
+
+Видаляємо `java` заданої версії:
+``` shell
+sdk rm java 21.0.2-oracle
+```
+
+## Очищення SDK Man
+
+Видалення новин:
+``` shell
+sdk flush broadcast
+```
+
+Видалення всіх невстановлених / видалених SDK:
+``` shell
+sdk flush archives
+```
+
+Очищення теки з тимчасовими файлами:
+``` shell
+sdk flush temp
+```
