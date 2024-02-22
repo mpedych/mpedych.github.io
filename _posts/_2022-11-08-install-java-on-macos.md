@@ -49,17 +49,32 @@ export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
 curl -s "https://get.sdkman.io" | bash
 ```
 
-Встановлюємо Java останньої версії:
+Оновлення `SDK Man` до останньої версії:
+``` shell
+sdk selfupdate
+```
+
+Вивід всіх пакетів доступних до встановлення:
+``` shell
+sdk ls
+```
+
+Вивід всіх доступних до встановлення версій `JDK`:
+``` shell
+sdk ls java
+```
+
+Встановлюємо `Java` останньої версії:
 ``` shell
 sdk install java
 ```
 
-Встановлюємо конкретну версію Oracle JDK:
+Встановлюємо конкретну версію `Oracle JDK`:
 ``` shell
 sdk install java x.y.z-oracle
 ```
 
-Інші версії JDK можна занайти за посиланням [SDK Man -> JDKs](https://sdkman.io/jdks/)
+Інші версії `JDK` можна занайти за посиланням [SDK Man -> JDKs](https://sdkman.io/jdks/)
 
 Встановлення версії за замовчанням:
 ``` shell
