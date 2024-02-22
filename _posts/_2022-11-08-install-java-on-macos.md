@@ -88,3 +88,16 @@ sdk home java current
 ``` shell
 source ~/.sdkman/bin/sdkman-init.sh
 ```
+
+## Робота з env
+
+Створення env:
+``` shell
+sdk env init
+```
+
+Активація env для текучої сесії терміналу:
+``` shell
+sdk env
+```
+
